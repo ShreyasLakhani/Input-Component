@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    height: 30px;
+    width: 150px;
+}
+
+.name{
+    position: relative;
+    margin: 20px;
+    width: 500px;
+    height: 50px;
+}
+
+
+h6{
+    position: absolute;
+    left: 29%;
+    top: 50%;
+}
+
+
+.username{
+    display: block;
+}
+
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+
+#uname{
+    cursor: not-allowed;
+}
+
+.email{
+    width: 200px;
+}
+
+.helper{
+    opacity: 0.5;
+}
+
+.icon{
+    width: 200px;
+}
+
+#number{
+    position: absolute;
+    width: 200px;
+}
+
