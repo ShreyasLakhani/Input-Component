@@ -3,24 +3,22 @@
     padding: 0;
 }
 
-input{
-    height: 30px;
-    width: 150px;
+.main{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.name{
-    position: relative;
-    margin: 20px;
-    width: 500px;
-    height: 50px;
-}
-
-
-h6{
+#r{
     position: absolute;
-    left: 29%;
-    top: 50%;
+    left: 250px;
 }
+
+
+
+
+
 
 
 .username{
@@ -48,10 +46,29 @@ input:invalid {
 
 .icon{
     width: 200px;
+    display: flex;
+    background-color: white;
 }
+
 
 #number{
     position: absolute;
     width: 200px;
 }
 
+.width{
+    width: 100%;
+}
+
+.hover:hover {
+    background-color: rgb(147, 213, 255);
+    border: 2px solid red;
+  }
+
+  a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(3, 192, 91);
+}

@@ -1,9 +1,13 @@
-let a= parseInt(document.getElementById("age").value)
 
+document.getElementById("age").addEventListener("input", () => {
+    let text = document.getElementById("r");
+    let val = parseInt(document.getElementById("age").value);
 
-let b=document.getElementById("r")
+    if (val < 18) {
 
-if(a < 18){
-    b.style.color="red";
-    b.innerHTML="Sorry,your age is under 18"
-}
+        text.style.color = "red";
+        text.innerHTML = "Sorry,your age is under 18";
+    } else {
+        text.innerHTML = ""
+    }
+});

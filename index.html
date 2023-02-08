@@ -7,35 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input Component Challenge</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
-    <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
-
+    <script src="https://kit.fontawesome.com/7ab1cfe665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div>
-        <div class="name">
-            <h2>Error State</h2>
-            <label for="age">Enter your age: (18+)</label>
-            <input id="age" type="number" min="18" onsubmit="change">
-            <h6 id="r"></h6>
+    <div class="main">
+        <div class="one">
+            <div class="name">
+                <h2>Error State</h2>
+                <label for="age">Enter your age: (18+)</label>
+                <input id="age" type="number" min="18" onsubmit="change">
+                <h6 id="r"></h6><br><br><br>
 
+            </div>
+            <div class="disable">
+                <h2>Disable Input</h2>
+                <label for="lname">User name:</label>
+                <input type="text" id="uname" value="Shreyas" disabled>
+            </div><br><br>
+            <div class="help">
+                <h2>Helper Text</h2>
+                <input class="email" type="email" placeholder=""><br>
+                <span class="helper">
+                    Example@Domian.com
+                </span>
+            </div>
         </div>
+        <div class="two">
+
+        <div class="icon1">
+            <h2>Icon</h2><br>
+            <i class="fa-solid fa-house"></i>
+            <input type="text" class="">
+        </div><br>
+        <div class="icon2">
+            <input type="text" class="">
+            <i class="fa-solid fa-house"></i>
+        </div><br><br>
+
+        <div class="size">
+            <h2>Different size of input</h2><br>
+            <label for="fname">First name:</label>
+            <input type="text" size="50"><br><br>
+            <label for="pin">PIN:</label>
+            <input type="text" size="4"><br><br>
+        </div><br><br>
+        <div class="color">
+            <h2>Color</h2>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </div>
+    </div>
+    <div class="three">
         <div>
-            <h2>Disable Input</h2>
-            <label for="lname">User name:</label>
-            <input type="text" id="uname" value="Shreyas" disabled>
-        </div>
+            <h2>Width</h2>
+            <input type="text" class="width">
+        </div><br><br>
+
         <div>
-            <h2>Helper Text</h2>
-            <input class="email" type="email" placeholder=""><br>
-            <span class="helper">
-                Example@Domian.com
-            </span>
+            <h2>Hover</h2>
+            <input type="text" class="hover">
+        </div><br><br>
+
+        <div>
+            <a href="https://www.w3schools.com/html/html_form_attributes.asp">Attribute of Input</a>
         </div>
-        
-            
-            
+    </div>
+
 
     </div>
 
