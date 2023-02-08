@@ -1,27 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.main{
+.main {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#r{
+#r {
     position: absolute;
     left: 250px;
 }
 
-
-
-
-
-
-
-.username{
+.username {
     display: block;
 }
 
@@ -32,43 +26,53 @@ input:invalid {
     border-radius: 5px;
 }
 
-#uname{
+#uname {
     cursor: not-allowed;
 }
 
-.email{
+.email {
     width: 200px;
 }
 
-.helper{
+.helper {
     opacity: 0.5;
 }
 
-.icon{
+.icon {
     width: 200px;
     display: flex;
     background-color: white;
 }
 
 
-#number{
+#number {
     position: absolute;
     width: 200px;
 }
 
-.width{
+.width {
     width: 100%;
 }
 
 .hover:hover {
     background-color: rgb(147, 213, 255);
     border: 2px solid red;
-  }
+}
 
-  a:link {
+a:link {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: rgb(3, 192, 91);
+}
+
+h3{
+    text-decoration: none;
+    position: absolute;
+    top: 90%;
+}
+
+span{
+    text-decoration: underline;
 }
